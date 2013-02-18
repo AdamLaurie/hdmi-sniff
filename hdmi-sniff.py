@@ -13,6 +13,10 @@
 #
 #     http://dangerousprototypes.com/docs/Bus_Pirate
 #
+#  Walked through example:
+#
+#     http://adamsblog.aperturelabs.com/2013/02/hdcp-is-dead-long-live-hdcp-peek-into.html
+#
 
 import sys
 import serial
