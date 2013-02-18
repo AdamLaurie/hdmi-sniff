@@ -21,7 +21,7 @@ to a key:
 
 For a walked through example, read this:
 
-  http://oamajormal.blogspot.co.uk/2013/02/???
+  http://adamsblog.aperturelabs.com/2013/02/hdcp-is-dead-long-live-hdcp-peek-into.html
 
 Enjoy!
 Adam
