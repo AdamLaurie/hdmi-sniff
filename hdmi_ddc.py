@@ -7,6 +7,9 @@
 # 
 #  This code is copyright (c) Aperture Labs Ltd., 2013, All rights reserved.
 
+import sys
+import os
+
 # import hdcp-genkey for HDCP decoding
 try:
         from generate_key import read_key_file, gen_sink_key, gen_source_key, output_human_readable
@@ -20,10 +23,10 @@ except:
         exit(True)
 
 try:
-        master= open('hdcp-master.txt','r')
+        master= open(os.path.dirname(sys.argv[0]) + '/hdcp-master.txt','r')
 except:
         try:
-                master= open('master-key.txt','r')
+                master= open(os.path.dirname(sys.argv[0]) + '/master-key.txt','r')
         except:
                 print
                 print '  no HDCP master key found!'
